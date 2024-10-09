@@ -1,0 +1,44 @@
+#mash > img { 
+    width: 20%;
+}
+#mash {
+    text-align: left;
+}
+#set {
+    color: rgb(11, 66, 148);
+}
+.contener > div {
+    border: 2px solid rgb(165, 11, 126);
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.contener {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contener img{
+   
+    width: 100%;
+}
+#menu {
+    text-align: center;
+}
+#menu > img { 
+    width: 30%;
+}
+h2 {
+    background-color: rgb(174, 196, 236);
+    text-align: center;
+}
+#step > img {
+    width: 30%;
+}
+#step {
+    text-align: center;
+}
+.bystep {
+    display: flex;
+}

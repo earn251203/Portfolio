@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src='register.js'></script>
+</head>
+<body>
+
+    <div class="form-container">
+        <form name="myRegister" id="myRegister" action="login.html">
+            <fieldset>
+                <legend>Register</legend>
+                <span>* Required fields</span>
+                <span id="errormsg"></span>
+                <br>
+                <label for="firstname">First name*:</label>
+                <input type="text" name="firstname" id="firstname" required>
+                <br>
+                <label for="lastname">Last name*:</label>
+                <input type="text" name="lastname" id="lastname" required>
+                <br>
+                <label>Gender*:</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="other">Other
+                <br>
+                <label for="bday">Birthday*:</label>
+                <input type="date" name="bday" id="bday" required>
+                <br>
+                <label for="email">Email address*:</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="username">Username*:</label>
+                <input type="text" name="username" id="username" required>
+                <br>
+                <label for="password">Password*:</label>
+                <input type="password" name="password" id="password" required>
+                <br>
+                <label for="repassword">Retype Password*:</label>
+                <input type="password" name="repassword" id="repassword" required>
+                <br>
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
